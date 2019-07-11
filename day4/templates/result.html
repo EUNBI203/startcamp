@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>random_result</title>
+</head>
+<body>
+    <h1>
+        {% if text == 'JAVA' %}
+            역시 {{ text }}가 짱이지
+            <br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgDzWopEn43B8FaDi9cOKahPVm6m0Nko5YWRt2pdClGgZoAfn1">
+        {% elif text == 'PORTRAN' %}
+            {{ text }}을 대체할 언어란 없어
+            <br><img src="https://cdn.dribbble.com/users/1218634/screenshots/3154584/fortran-programming-class-joke.png">
+        {% elif text == 'C' %}
+            {{ text }}가 최고야
+            <br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvrjrtYhWxjvrOGUH5JZmh3z1BYk8qB0QY7xt0lfExEHiMud0mtw">
+        {% elif text == 'javascript' %}
+            {{ text }}가 대세라고
+            <br><img src="https://dri.es/files/cache/blog/javascript-powered-multichannel-640w.gif">
+        {% elif text == 'PYTHON' %}
+            {{ text }}만 있으면 뭐든 할 수 있지
+            <br><img src="https://i.ytimg.com/vi/vISRn5qFrkM/maxresdefault.jpg">
+        {% endif %}
+    </h1>
+</body>
+</html>

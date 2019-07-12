@@ -17,7 +17,7 @@ c3 = 0
 c4 = 0
 c5 = 0
 c6 = 0
-for i in range(10000000):
+for i in range(100000):
     my_lotto = random.sample(range(1,46),6)
     n=0
     count = 0

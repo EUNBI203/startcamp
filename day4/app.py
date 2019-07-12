@@ -49,5 +49,17 @@ def result():
     return render_template('result.html', text=text)
 
 
+
+@app.route('/lotto')
+def lotto():
+    return render_template('lotto.html')
+@app.route('/lotto_result')
+def lottp_result():
+    name = request.args.get('name')
+    num = request.args.get('num')
+    random.seed(num)
+    numbers = random.sample(range(1,46), 6)
+    return render_template('lotto_result.html', name=name, numbers=numbers)
+
 if __name__ == '__main__':
     app.run(debug=True)

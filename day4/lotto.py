@@ -46,7 +46,7 @@ for i in range(100000):
     else:
         print('낙첨입니다.')
         c6 += 1
-    
+    #
 print(f'1등 {c1}번, 2등 {c2}번, 3등 {c3}번, 4등 {c4}번, 5등 {c5}번, 낙첨 {c6}번', end='\r')
 print('끝')
 

@@ -48,7 +48,7 @@ def result():
     print(text)
     return render_template('result.html', text=text)
 
-
+#
 
 @app.route('/lotto')
 def lotto():
